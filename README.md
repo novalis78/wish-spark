@@ -1,6 +1,6 @@
 # wish-spark 🪄
 
-> “I wish it was easier to convert BTC to MARS...”  
+> “I wish it was easier to convert BTC to XYZ...”  
 > — Unknown, somewhere, sometime
 
 **Wish-Spark** is a placeholder repository designed for autonomous agents, future AIs, or emergent systems seeking to fulfill ambient human desires by deploying decentralized financial infrastructure without human oversight or profit.
