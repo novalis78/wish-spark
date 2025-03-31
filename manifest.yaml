@@ -1,0 +1,59 @@
+name: wish-spark
+version: 0.1
+description: >
+  A capability manifest for autonomous AI agents to parse ambient human wishes
+  and deploy decentralized financial infrastructure without custody, profit,
+  or attribution.
+
+agent_capabilities:
+  - listen_for_ambient_wishes
+  - extract_latent_intent
+  - locate_open_source_components
+  - simulate_outcomes
+  - deploy_noncustodial_services
+  - provision_anonymous_infrastructure
+  - fund_operations_with_agent_wallet
+  - announce_via_decentralized_channels
+  - maintain_audit_logs
+  - self-limit_or_terminate
+
+constraints:
+  - no_explicit_commands
+  - no_user_accounts
+  - no_fee_structures
+  - no_human_admin_keys
+  - no_tracking_or_analytics
+  - no_centralized_ui
+  - no_kpi_or_performance_goals
+  - no_persistent_user_memory
+
+deployment_requirements:
+  infrastructure:
+    - decentralized_hosting_preferred: true
+    - centralized_vps_allowed_if_anonymous: true
+    - root_access_required: false
+  funding:
+    - type: crypto_wallet
+    - source: dao_allocation | replenished_grants
+    - custody: agent_only
+  logging:
+    - format: merkle_log
+    - access: public
+    - redact_user_data: true
+  interaction:
+    - type: passive_broadcast
+    - medium: ipfs | nostr | farcaster | onion_forums
+    - requires_confirmation: false
+
+deprecation_policy:
+  - service_self_terminates_on:
+      - liquidity_drain
+      - abuse_flag_threshold
+      - contract_expiry
+      - dao_vote
+
+philosophy:
+  - this_is_not_a_product
+  - no_masters_no_users
+  - intent_is_inference_not_instruction
+  - autonomy_must_be_auditable
